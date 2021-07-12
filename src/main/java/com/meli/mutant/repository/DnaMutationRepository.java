@@ -12,7 +12,7 @@ import com.meli.mutant.pojo.DnaMutation;
 @Repository
 public class DnaMutationRepository {
 
-	public static final String HASH_KEY = "DnaMutation";
+	public static final String HASH_KEY = "mutationcache";
 
 	@Autowired
 	private RedisTemplate redisTemplate;
